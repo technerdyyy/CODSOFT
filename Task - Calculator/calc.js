@@ -49,3 +49,17 @@ buttons.forEach(button => {
         }
     });
 });
+
+// Adding keyboard support
+document.addEventListener("keydown", (e) => {
+    const key = e.key;
+    if (key >= 0 && key <= 9) { // Numbers
+        calculate(key);
+    } else if (operators.includes(key) || key === "Enter") { // Operators and Enter key
+        calculate(key === "Enter" ? "=" : key);
+    } else if (key === "Backspace") { // Backspace for DEL
+        calculate("DEL");
+    } else if (key === "Escape") { // Escape for AC
+        calculate("AC");
+    }
+});
