@@ -11,19 +11,17 @@ This is a landing page for a skin healthcare company - MedaCare(fictional). It p
 ## Features
 
 <br>
---> Responsive navbar guiding user to different sections of the page
+--> Responsive navbar guiding user to different sections of the page.
 <br>
---> AOS animations used for a appealing and user-friendly design
+--> AOS used for a appealing and user-friendly design.
 <br>
---> Footer section with social media links of MedaCare 
+--> Footer section with social media links of MedaCare.
 <br>
---> Responsive design for various screen sizes achieved with the help of <strong>Media Queries</strong>
+--> Responsive design for various screen sizes achieved with the help of <strong>Media Queries</strong>.
 <br> <br>
 
 ## Technologies Used
 
-<br>
-Outline the technologies you used to build the landing page:
 <br>
 --> HTML5
 <br>
@@ -33,13 +31,13 @@ Outline the technologies you used to build the landing page:
 ## Credits
 
 <br>
--->FontAwesome for icons and AOS animations
+-->FontAwesome for icons and AOS.
 <br>
---> Coolors for generating customized palette
+--> Coolors for generating customized palette.
 <br> 
---> Pintrest and Google for background pictures
+--> Pinterest and Google for background pictures.
 <br> 
--->Canva for designing logo for MedaCare
+-->Canva for designing logo for MedaCare.
 
 ## License
 
