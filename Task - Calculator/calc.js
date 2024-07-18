@@ -50,16 +50,39 @@ buttons.forEach(button => {
     });
 });
 
+
+// Function to add hover effect when keys are pressed
+const addHoverEffect = (key) => {
+    buttons.forEach(button => {
+        if (button.dataset.value === key) {
+            button.classList.add("button-hover");
+            setTimeout(() => {
+                button.classList.remove("button-hover");
+            }, 200); // Adjust the timeout as needed
+        }
+    });
+};
+
+
 // Adding keyboard support
 document.addEventListener("keydown", (e) => {
     const key = e.key;
-    if (key >= 0 && key <= 9) { // Numbers
+    if (key >= 0 && key <= 9 || key ===".") {     // Numbers
         calculate(key);
-    } else if (operators.includes(key) || key === "Enter") { // Operators and Enter key
-        calculate(key === "Enter" ? "=" : key);
-    } else if (key === "Backspace") { // Backspace for DEL
+        addHoverEffect(key);
+    } else if (operators.includes(key)) {     // Operators 
+        calculate(key);
+        addHoverEffect(key);
+    } else if (key === "Enter") {     // Enter key for "="
+        calculate("=");
+        addHoverEffect("=");
+    } else if (key === "Backspace") {    // Backspace for DEL
         calculate("DEL");
-    } else if (key === "Escape") { // Escape for AC
+        addHoverEffect("DEL");
+    } else if (key === "Escape") {     // Escape for AC
         calculate("AC");
+        addHoverEffect("AC");
     }
+
 });
+

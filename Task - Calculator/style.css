@@ -71,6 +71,10 @@ button:hover{
     background-color: #CC9AB5;
     color:#fff;
 }
+.button-hover{
+    background-color: #CC9AB5;
+    color: #fff;
+}
 
 .result-btn{
     display: flex;
