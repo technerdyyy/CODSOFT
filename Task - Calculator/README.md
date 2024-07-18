@@ -16,6 +16,8 @@ This is a simple calculator that will allow user to perform simple operations li
 --> Hover button effects giving a visually appealing look.
 <br>
 --> Allow continuous operations i.e allows user to perform further operations on the obtained result (if needed).
+<br>
+--> Supports keyboard functionality, allowing you to operate it using your keyboard.
 <br> <br>
 
 ## Technologies Used
