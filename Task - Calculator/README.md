@@ -11,17 +11,15 @@ This is a simple calculator that will allow user to perform simple operations li
 ## Features
 
 <br>
---> Sleek, simple design resembling an actual calculators
+--> Sleek, simple design resembling an actual calculator.
 <br>
---> Hover button effects giving visually appealing look
+--> Hover button effects giving a visually appealing look.
 <br>
---> Allow continuous operations i.e allows user to perform further operations on the obtained result (if needed)
+--> Allow continuous operations i.e allows user to perform further operations on the obtained result (if needed).
 <br> <br>
 
 ## Technologies Used
 
-<br>
-Outline the technologies you used to build the landing page:
 <br>
 --> HTML5
 <br>
@@ -33,9 +31,9 @@ Outline the technologies you used to build the landing page:
 ## Credits
 
 <br>
---> Coolors for generating customized palette
+--> Coolors for generating customized palette.
 <br> 
---> MDN docs and Youtube for added assistance
+--> MDN docs and Youtube for added assistance.
 
 ## License
 
