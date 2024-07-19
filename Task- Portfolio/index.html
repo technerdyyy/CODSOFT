@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="shortcut icon" type="images/jpg" href=""/>
+    <link rel="shortcut icon" type="images/jpg" href="images/profile2.jpg"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -12,10 +12,11 @@
 </head>
 <body>
 
+
     <!--HEADER SECTION-->
     <header class="header" data-aos="fade-bottom">
   
-        <a href="#home" class="logo">Akansha Bisht</a>
+        <a href="#home" class="logo"><i class="fa-solid fa-user-graduate"></i>  portfolio<span>.</span></a>
         <input type="checkbox" id="menu-bar">
         <label for="menu-bar"><img src="images/menu-bar.png"></label>
 
@@ -34,23 +35,26 @@
 
 
 <!--HOME SECTION : PHOTO + BRIEF-INTRO-->
+<div class="home-section">
+    
 <section class="home" id="home">
     <div class="profile-image" data-aos="fade-right">
         <img src="images/profile.jpg" alt="My Profile Image">
     </div>
 
-    <div class="brief-intro">
-        <h3 data-aos="fade-up">Hi, I am Akansha Bisht</h3>
-        <span data-aos="fade-up">front-end web developer</span>
-        <p data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae at molestiae iure inventore repellat. Saepe, beatae officia voluptatum quae aliquid, dolor mollitia ipsam porro error delectus et eum voluptas fugit!</p>
+    <div class="brief-intro"  data-aos="fade-up">
+        <span>hello, my name is</span>
+        <h1><strong>Akansha </strong>Bisht</h1>
+        <h3>Front-end web developer</h3>
+        <p>An enthusiastic, budding tech personality finding immense passion in building and designing websites. My proficiency lies in front-end aspects and problem-solving. However being a consistent learner, I'm looking forward to stretch my expertise in full-stack and cybersecurity.</p>
+        <!-- Learning is one infinitely rewarding process, and I believe that's an ideal path to explore, upgrade and be confident in yourself. -->
         <div class="socials">
-            <a href="https://www.linkedin.com/in/akansha-bisht-625243293/"><img src="images/linkedIn-icon.png"
-                    class="linkedIn"></a>
-            <a href="https://github.com/technerdyyy"><img src="images/github-icon.png" class="github"></a>
+            <a href="https://www.linkedin.com/in/akansha-bisht-625243293/" class="about-btn"target="_blank"> view on linkedin   <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
         
         </div>
     </div>
 </section>
+</div>
 
 
 <!--ABOUT SECTION : -->
@@ -58,7 +62,7 @@
     <h1 class="heading" data-aos="fade-up"><span>Know Me</span></h1>
 
     <div class="biography">
-        <p data-aos="fade-up">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit voluptates blanditiis natus hic facilis, dolores eligendi vero! Repellendus non, et perferendis ratione maiores consequatur atque tenetur fugiat accusamus nam ipsam?</p>
+        <p data-aos="fade-up">Dedicated and hardworking college student pursuing her Bachelors in Computer Science and Engineering. I'm fervent about the prevelant and new developments in the tech industry; eager to learn, improve and grow everyday.</p>
 
         <div class="bio">
             <h3 data-aos="zoom-in"><span> name : </span>Akansha Bisht</h3>
@@ -71,32 +75,56 @@
         
     </div>
 
-    <div class="education">
-        <h1 class="heading" data-aos="fade-up"><span>Education</span></h1>
+    <div class="edu-exp">
+        <h1 class="heading" data-aos="fade-up"><span>Education and Experience</span></h1>
         
-        <div class="edu-container">
+        <div class="rows">
 
-            <div class="box" data-aos="zoom-in">
-                <span>(2008 - 2019)</span>
-                <h3>10th</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta, autem ducimus laborum eum iure explicabo voluptatem ipsam dolor beatae quis minus repellat illum voluptatum, nostrum maxime exercitationem, excepturi libero.</p>
+            <div class="column">
+                <h3 class="head" data-aos="fade-right"> education</h3>
+
+                <div class="box" data-aos="zoom-in">
+                    <span>(2008 - 2019)</span>
+                    <h3>10th</h3>
+                    <p> Completed 10th (CBSE) from Sun Valley International School, Vaishali, GZB with a percentage of <b>96.8.</b> Highest score : <b>Maths (100).</b> Choosen stream : PCM with PE.</p>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <span>(2019 - 2021)</span>
+                    <h3>12th</h3>
+                    <p>Completed 12th (CBSE) from Vivekanand School,Anand Vihar, Delhi with a percentage of <b>95.6.</b> Highest score : <b>English Core (98).</b>
+
+                    </p>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <span>(2022 - present)</span>
+                    <h3>Btech in CSE</h3>
+                    <p>Pursuing Btech in CSE from Jims EMTEC, Greater Noida (affliated to GGSIPU). Current CGPA is <b>8.7.</b></p>
+                </div>
+
             </div>
 
-            <div class="box" data-aos="zoom-in">
-                <span>(2019 - 2021)</span>
-                <h3>12th</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta, autem ducimus laborum eum iure explicabo
-                    voluptatem ipsam dolor beatae quis minus repellat illum voluptatum, nostrum maxime exercitationem, excepturi
-                    libero.</p>
+            <div class="column">
+                <h3 class="head" data-aos="fade-left"> experience</h3>
+            
+                <div class="box" data-aos="zoom-in">
+                    <span>Feb - April '24</span>
+                    <h3>Web-developer</h3>
+                    <p>Completed Web Development Training and Internship programme by <b>EdiGlobe.</b> During the programme, learned essential skills in webdev domain and built two relvant projects.</p>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <span>July '24'</span>
+                    <h3>Web developer</h3>
+                    <p>Accepted virtual internship opportunity provided by <b>CodSoft</b> Built three front-end projects, boosting skills and confidence as a front-end developer.</p>
+                </div>
+                <div class="box" data-aos="zoom-in">
+                    <span>July-August '24</span>
+                    <h3>Web developer</h3>
+                    <p>Accepted virtual internship opportunity provided by <b>Oasis Infobyte</b> Built three front-end projects, boosting skills and
+                    confidence as a front-end developer.</p>
+                </div>
+            
             </div>
 
-            <div class="box" data-aos="zoom-in">
-                <span>(2022 - present)</span>
-                <h3>Btech in CSE</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta, autem ducimus laborum eum iure explicabo
-                    voluptatem ipsam dolor beatae quis minus repellat illum voluptatum, nostrum maxime exercitationem, excepturi
-                    libero.</p>
-            </div>
         </div>
     </div>
 
@@ -104,27 +132,49 @@
 
 
 <!--SKILLS SECTION-->
-<div class="skills" id="skills" data-aos="fade-up">
+<div class="skills" id="skills">
 
-    <h1 class="heading"><span>Skills</span></h1>
+    <h1 class="heading" data-aos="fade-up"><span>Skills</span></h1>
 
-    <div class="progress">
-        <div class="bar" data-aos="fade-right">
-            <h3><span>HTML</span><span>95%</span></h3>
+    <section class="skill-box">
+
+        <div class="skill" data-aos="fade-right">
+            <img src="images/skills/html.png" alt="">
+            <h3>HTML</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sunt magnam ipsa? Reiciendis asperiores dolor.</p>
         </div>
-        <div class="bar" data-aos="fade-left">
-            <h3><span>CSS</span><span>80%</span></h3>
+
+        <div class="skill" data-aos="fade-up">
+            <img src="images/skills/css.png" alt="">
+            <h3>CSS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sunt magnam ipsa? Reiciendis asperiores dolor.</p>
         </div>
-        <div class="bar" data-aos="fade-right">
-            <h3><span>JavaScript</span><span>60%</span></h3>
+
+        <div class="skill" data-aos="fade-left">
+            <img src="images/skills/js.png" alt="">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sunt magnam ipsa? Reiciendis asperiores dolor.</p>
         </div>
-        <div class="bar" data-aos="fade-left">
-            <h3><span>Java</span><span>50%</span></h3>
+
+        <div class="skill" data-aos="fade-right">
+            <img src="images/skills/java.png" alt="">
+            <h3>JAVA</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sunt magnam ipsa? Reiciendis asperiores dolor.</p>
         </div>
-        <div class="bar" data-aos="fade-right">
-            <h3><span>SQL</span><span>50%</span></h3>
+
+        <div class="skill" data-aos="fade-up">
+            <img src="images/skills/bootstrap.png" alt="">
+            <h3>BootStrap</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sunt magnam ipsa? Reiciendis asperiores dolor.</p>
         </div>
-    </div>
+
+        <div class="skill" data-aos="fade-left">
+            <img src="images/skills/database.png" alt="">
+            <h3>SQL</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sunt magnam ipsa? Reiciendis asperiores dolor.</p>
+        </div>
+        
+    </section>
 </div>
 
 
@@ -135,35 +185,33 @@
     <div class="box-container">
 
         <div class="box" data-aos="zoom-in">
-            <a href="#"><img src="images/simpleCalc.jpg" alt=""></a>
+            <a href="#"><img src="images/projects/simpleCalc.jpg" alt=""></a>
             <h3>Simple Calculator</h3>
         </div>
 
         <div class="box" data-aos="zoom-in">
-            <a href="#"><img src="images/Tic-Tac-Toe.png" alt=""></a>
+            <a href="#"><img src="images/projects/Tic-Tac-Toe.png" alt=""></a>
             <h3>Tic-Tac-Toe</h3>
         </div>
 
         <div class="box" data-aos="zoom-in">
-            <a href="#"><img src="images/logo.jpg" alt=""></a>
+            <a href="#"><img src="images/projects/logo.jpg" alt=""></a>
             <h3>Landing Page</h3>
         </div>
 
-        <div class="box" data-aos="zoom-in">
-            <a href="#"><img src="images/rock-paper-scissors.png" alt=""></a>
-            <h3>Rock-Paper-Scissors</h3>
-        </div>
-
-        <div class="box" data-aos="zoom-in">
-            <a href="#"><img src="images/currConverter.png" alt=""></a>
-            <h3>Currency Converter</h3>
-        </div>
-
     </div>
+<br>
+    <div class="socials">
+        <a href="https://github.com/technerdyyy" class="about-btn" target="_blank" data-aos="fade-up"> view
+            on github <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+    
+    </div>
+    
  </section>
 
 
  <!-- RESUME SECTION -->
+  <div class="resume-section">
   <section class="resume" id="resume">
     <h1 class="heading" data-aos="fade-up"><span>Resume and Certifications</span></h1>
     <a href="resume_akansha.pdf" class="about-btn" download="resume_akansha.pdf" target="_blank" data-aos="fade-up">Download Resume</a>
@@ -176,11 +224,11 @@
     <div class="certificates">
 
         <div class="slides" data-aos="fade-up">
-            <img src="images/certificate-ediglobe.jpg" alt="">
-            <img src="images/certificate-part.jpg" alt="">
-            <img src="images/certificate-microsoft.jpg" alt="">
-            <img src="images/certificate-sql.jpg" alt="">
-            <img src="images/certificate-java.jpg" alt="">
+            <img src="images/certificates/certificate-ediglobe.jpg" alt="">
+            <img src="images/certificates/certificate-part.jpg" alt="">
+            <img src="images/certificates/certificate-microsoft.jpg" alt="">
+            <img src="images/certificates/certificate-sql.jpg" alt="">
+            <img src="images/certificates/certificate-java.jpg" alt="">
         </div>
 
         <div class="controls">
@@ -216,22 +264,24 @@
     </div>
 
   </section>
+</div>
 
 
-  <!--CONTACT SECTION-->
-  <section  class="contact" id="contact">
-    <h1 class="heading" data-aos="fade-up"><span>Contact Me</span></h1>
-    <form action="" method="post">
-        <div class="flex">
+<!--CONTACT SECTION-->
+<div class="contact-section">
+    <section  class="contact" id="contact">
+        <h1 class="heading" data-aos="fade-up"><span>Contact Me</span></h1>
+        <form action="" method="post">
+            <div class="flex">
             <input data-aos="fade-right"type="text" name="name" placeholder="enter your name" class="box" required>
             <input data-aos="fade-left" type="email" name="email" placeholder="enter your email" class="box" required>
-        </div>
+            </div>
             <input data-aos="fade-up" type="number" name="number" placeholder="enter your number" class="box" required>
             <textarea data-aos="fade-up" name="message" class="box" required placeholder="enter your message" rows="10" cols="30"></textarea>
             <input data-aos="fade-up"type="submit" value="send message" name="send" class="about-btn">
-
-    </form>
+        </form>
     </section>
+</div>
 
     <div class="box-containers">
 
@@ -259,9 +309,21 @@
 
 
   <!--FOOTER SECTION-->
-  <div class="credit"> All Rights Reserved | Made By @<a href="https://www.linkedin.com/in/akansha-bisht-625243293/"><span>Akansha Bisht</span></a></div>
-  
+  <div class="footer"> 
+
+    <div class="credit">
+        <a href="#home"><span>Akansha Bisht </span></a> | @All Rights Reserved
+    </div>
+
+    <div class="links">
+        <a href="https://www.linkedin.com/in/akansha-bisht-625243293/" class="fab fa-linkedin"></a>
+        <a href="https://github.com/technerdyyy" class="fab fa-github"></a>
+    </div>
+
+  </div>
+
    
+  <!-- SCRIPT FILE FOR AOS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
   <script>
